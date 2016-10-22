@@ -28,9 +28,9 @@
         android:background="@android:color/white"
         android:textColor="@android:color/black"
         android:textSize="25sp"
-        android:layout_width="150sp"
+        android:layout_width="170sp"
         android:layout_height="45sp"
-        android:id="@+id/button"
+        android:id="@+id/buttonHappy"
         android:layout_below="@+id/checkedTextView"
         android:layout_centerHorizontal="true" />
 
@@ -39,38 +39,38 @@
         android:background="@android:color/white"
         android:textColor="@android:color/black"
         android:textSize="25sp"
-        android:layout_width="150sp"
+        android:layout_width="170sp"
         android:layout_height="45sp"
-        android:layout_below="@+id/button"
+        android:layout_below="@+id/buttonHappy"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        android:id="@+id/button2" />
+        android:id="@+id/buttonSad" />
 
     <Button
         android:text="Bored"
         android:background="@android:color/white"
         android:textColor="@android:color/black"
         android:textSize="25sp"
-        android:layout_width="150sp"
+        android:layout_width="170sp"
         android:layout_height="45sp"
-        android:layout_below="@+id/button2"
+        android:layout_below="@+id/buttonSad"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        android:id="@+id/button3" />
+        android:id="@+id/buttonBored" />
 
     <Button
-        android:text="MAD"
+        android:text="HALLOWEENY"
         android:background="@android:color/white"
         android:textColor="@android:color/black"
         android:textSize="25sp"
-        android:layout_width="150sp"
+        android:layout_width="170sp"
         android:layout_height="45sp"
-        android:layout_below="@+id/button3"
-        android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3"
+        android:layout_below="@+id/buttonBored"
+        android:layout_alignLeft="@+id/buttonBored"
+        android:layout_alignStart="@+id/buttonBored"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="35dp"
-        android:id="@+id/button4" />
+        android:id="@+id/buttonHalloweeny" />
 
     <TextView
         android:layout_width="wrap_content"
