@@ -23,8 +23,8 @@
         android:id="@+id/checkedTextView" />
 
     <Button
-        android:text="HAPPY"
-        android:onClick="sendMessage"
+        android:text=""
+        android:drawableTop="@drawable/btn1"
         android:background="@android:color/white"
         android:textColor="@android:color/black"
         android:textSize="25sp"
@@ -35,7 +35,8 @@
         android:layout_centerHorizontal="true" />
 
     <Button
-        android:text="SAD"
+        android:text=""
+        android:drawableTop="@drawable/sad"
         android:background="@android:color/white"
         android:textColor="@android:color/black"
         android:textSize="25sp"
@@ -47,10 +48,11 @@
         android:id="@+id/buttonSad" />
 
     <Button
-        android:text="Bored"
+        android:text=""
         android:background="@android:color/white"
+        android:drawableTop="@drawable/bored"
         android:textColor="@android:color/black"
-        android:textSize="25sp"
+        android:textSize="15sp"
         android:layout_width="170sp"
         android:layout_height="45sp"
         android:layout_below="@+id/buttonSad"
@@ -59,7 +61,8 @@
         android:id="@+id/buttonBored" />
 
     <Button
-        android:text="HALLOWEENY"
+        android:text=""
+        android:drawableTop="@drawable/halloween"
         android:background="@android:color/white"
         android:textColor="@android:color/black"
         android:textSize="25sp"
